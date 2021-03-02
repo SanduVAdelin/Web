@@ -1,0 +1,235 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-image: url("back.png");
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url("back.png");
+    background-size: 800px;
+    background-position: center;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 90px;
+    top:50px;
+}
+
+.logo a{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: #2f2e41;
+    font-size: 2rem;
+    text-shadow: 2px 2px 10px rgba(0,0,0.2);
+    letter-spacing: 1px;
+}
+
+
+.logo font{
+
+    color:#7a72ff;
+}
+
+.logo:hover font {
+    color: #2f2e41;
+}
+
+.logo:hover a {
+    color:#7a72ff;
+}
+
+.main-img{
+    position: absolute;
+    left : 15%;
+    top: 50%;
+    transform: translate(-15%,-50%);
+}
+
+.main-img img{
+    height: 450px;
+     
+}
+
+.main-text{
+    position: absolute;
+    top : 50%;
+    left: 90%;
+    transform: translate(-90%,-50%);
+}
+
+.main-text h1,h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    margin: 0px;
+    line-height: 60px;
+    font-size: 4rem;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.08);
+    letter-spacing: 3px;
+    color:#3d3d4a;
+    text-transform: uppercase;
+}
+
+.main-btn{
+    width: 150px;
+    height: 40px;
+    background-color : #2f2e41 ;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 120px;
+    color:#FFFFFF;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.main-btn:hover{
+     background-color : #6e64ff;
+}
+
+.main-text h1{
+    letter-spacing: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.product{
+    width: 85%;
+    background-color :#f1f2f3;
+    box-shadow: 2px 2px 30px rgba(167,158,245,0.2);
+    display: flex;
+    margin : 30px auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    margin-top: -60px;
+    position: relative;
+    background-size: 1000px;
+    background-position : center;
+    border-radius: 10px;
+}
+
+.p-heading{
+    margin:20px;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
+.p-heading h3{
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 2rem;
+    color : #2f2e41;
+}
+
+.product-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin : 10px 0px;
+      width: 100%;
+}
+
+.p-box{
+    width: 250px;
+    height: 430px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    border-radius: 4px;
+    position: relative;
+    margin: auto;
+    z-index: 1;
+}
+
+.p-box img{
+    height: 230px;
+}
+
+.p-box p{
+    color: #4d4d4d70;
+    font-size: 1rem;
+}
+
+.price {
+    color: #2c2c2c;
+    font-size: 0.8rem;
+}
+
+.buy-btn{
+    position: absolute;
+    width : 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    color:#FFFFFF;
+    background : linear-gradient(120deg,#6b60ec 20%,#a166f4);
+    display: none;
+}
+
+.p-box:hover{
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    background-color: white;
+    background-size: 70%;
+    border-radius: 50px;
+}
+
+.p-box:hover .price{
+    color:#6b60ec;
+
+}
+
+.p-box:hover .buy-btn{
+    display: flex;
+}
+
+
+.social a{
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social{
+    position: fixed;
+    left : 30px;
+    top:50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    padding: 5px 0px;
+    z-index: 1;
+}
+
+
+ 
