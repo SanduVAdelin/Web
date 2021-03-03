@@ -5,10 +5,6 @@ body {
     background-image: url("back.png");
 }
 
-*{
-    box-sizing: border-box;
-}
-
 a{
     text-decoration: none;
 }
@@ -22,23 +18,21 @@ ul{
     height: 100vh;
     background-image: url("back.png");
     background-size: 800px;
-    background-position: center;
-    position: relative;
 }
 
 .logo {
     position: absolute;
-    left: 90px;
-    top:50px;
+    left: 80px;
+    top: 50px;
 }
 
 .logo a{
     font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: 700;
+     font-weight: 600; 
     color: #2f2e41;
     font-size: 2rem;
-    text-shadow: 2px 2px 10px rgba(0,0,0.2);
-    letter-spacing: 1px;
+    text-shadow: 3px 2px 5px rgb(100, 100, 100);
+    letter-spacing: 4px;
 }
 
 
@@ -57,14 +51,12 @@ ul{
 
 .main-img{
     position: absolute;
-    left : 15%;
-    top: 50%;
-    transform: translate(-15%,-50%);
+    left : 80px;
+    top: 100px;
 }
 
 .main-img img{
-    height: 450px;
-     
+    height: 450px;  
 }
 
 .main-text{
@@ -79,8 +71,8 @@ ul{
     font-weight: 700;
     margin: 0px;
     line-height: 60px;
-    font-size: 4rem;
-    text-shadow: 2px 2px 10px rgba(0,0,0,0.08);
+    font-size: 5rem;
+    text-shadow: 22px 12px 20px rgba(0,0,0,0.08);
     letter-spacing: 3px;
     color:#3d3d4a;
     text-transform: uppercase;
@@ -90,18 +82,16 @@ ul{
     width: 150px;
     height: 40px;
     background-color : #2f2e41 ;
-    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
     margin-top: 20px;
-    margin-left: 120px;
-    color:#FFFFFF;
+    margin-left: 140px;
+    color:#f3e5e5;
     font-weight: 600;
-    letter-spacing: 0.5px;
-    font-size: 1rem;
-    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.3rem;
 }
 
 .main-btn:hover{
@@ -116,22 +106,17 @@ ul{
 
 .product{
     width: 85%;
-    background-color :#f1f2f3;
+    background-color :#f0f1f1;
     box-shadow: 2px 2px 30px rgba(167,158,245,0.2);
     display: flex;
-    margin : 30px auto;
+    margin : auto;
     flex-direction: column;
     align-items: center;
     padding: 40px 20px;
-    margin-top: -60px;
-    position: relative;
-    background-size: 1000px;
-    background-position : center;
-    border-radius: 10px;
+    border-radius: 40px;
 }
 
 .p-heading{
-    margin:20px;
     text-shadow: 2px 2px 10px rgba(0,0,0,0.2);
 }
 
@@ -147,14 +132,13 @@ ul{
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-wrap: wrap;
       margin : 10px 0px;
       width: 100%;
 }
 
 .p-box{
-    width: 250px;
-    height: 430px;
+    width: 220px;
+    height: 420px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -171,12 +155,15 @@ ul{
 
 .p-box p{
     color: #4d4d4d70;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    justify-content: center;
 }
 
 .price {
     color: #2c2c2c;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    margin-top: -10px;
 }
 
 .buy-btn{
@@ -187,7 +174,7 @@ ul{
     justify-content: center;
     align-items: center;
     left: 50%;
-    bottom: 20px;
+    bottom: 15px;
     transform: translateX(-50%);
     border-radius: 20px;
     color:#FFFFFF;
@@ -196,7 +183,7 @@ ul{
 }
 
 .p-box:hover{
-    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 30px rgba(255, 255, 255, 0.1);
     background-color: white;
     background-size: 70%;
     border-radius: 50px;
